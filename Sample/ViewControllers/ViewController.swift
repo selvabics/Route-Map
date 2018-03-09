@@ -77,7 +77,6 @@ class ViewController: UIViewController {
             self.mapView.animate(to: camera)
             self.routeCollectionView.reloadData()
         }
-        print("Draw : \(Date())")
     }
     
     @IBAction func refreshAction(_ sender: UIBarButtonItem) {
